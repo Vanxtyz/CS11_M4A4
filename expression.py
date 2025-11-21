@@ -1,5 +1,3 @@
-# Expression Solver Program
-
 def solve_expression(a, b):
     return (a - b) + (a * b)
 

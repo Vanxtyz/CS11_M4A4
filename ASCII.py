@@ -1,5 +1,3 @@
-# ASCII Art with Option Selection (fixed)
-
 def option1():
     art = """
               .--~~,__
@@ -20,9 +18,9 @@ def option2():
     print(art)
 
 def main():
-    print("Choose an option:")
-    print("1. Image One")
-    print("2. Image Two")
+    print("Would you like to see a dog or cat:")
+    print("1. dog")
+    print("2. cat")
 
     choice = input("Enter 1 or 2: ").strip()
 
@@ -31,7 +29,7 @@ def main():
     elif choice == "2":
         option2()
     else:
-        print("Invalid choice. Please enter 1 or 2.")
+        print("Please pick 1 or 2 no other number is supported.")
 
 if __name__ == "__main__":
     main()
